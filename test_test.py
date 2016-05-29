@@ -55,7 +55,7 @@ def no_arcus():
 				#cursor.execute("SELECT * FROM data WHERE K="+str(i));
 				cursor.execute(query)
 				data = cursor.fetchall()	
-				client.set("1", "WTF", timeout)
+				client.set("1", "WWW", timeout)
 
 		with_arcus = time.time() - t0
  
